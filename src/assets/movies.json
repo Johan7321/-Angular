@@ -1,0 +1,51 @@
+[
+  {
+    "titulo": "Smile",
+    "anio": 2022,
+    "actor": "Sosie Bacon, Kyle Gallner",
+    "descripcion": "La doctora Rose Cotter presencia un suicidio perturbador y comienza a experimentar sucesos aterradores relacionados con una entidad sobrenatural que se alimenta de su miedo.",
+    "imagen": "assets/img/Smile.png"
+  },
+  {
+    "titulo": "Longlegs",
+    "anio": 2024,
+    "actor": "Maika Monroe",
+    "descripcion": "La agente del FBI Lee Harker investiga asesinatos rituales conectados con un asesino en serie llamado 'Longlegs', mientras descubre un vínculo personal con el caso.",
+    "imagen": "assets/img/Longlegs.png"
+  },
+  {
+    "titulo": "The First Omen",
+    "anio": 2024,
+    "actor": "Nell Tiger Free",
+    "descripcion": "Una joven americana enviada a Roma para servir en un orfanato descubre una conspiración religiosa que busca dar origen al Anticristo.",
+    "imagen": "assets/img/The firts omen.png"
+  },
+  {
+    "titulo": "Talk to Me 2",
+    "anio": 2024,
+    "actor": "Sophie Wilde",
+    "descripcion": "Secuela que continúa los eventos del universo de 'Talk to Me', explorando nuevas posesiones y consecuencias sobrenaturales.",
+    "imagen": "assets/img/Talk to me.png"
+  },
+  {
+    "titulo": "A Quiet Place: Day One",
+    "anio": 2024,
+    "actor": "Lupita Nyong'o",
+    "descripcion": "El inicio del apocalipsis causado por criaturas que cazan mediante el sonido, mostrando los primeros días del caos en Nueva York.",
+    "imagen": "assets/img/a quiet place.png"
+  },
+  {
+    "titulo": "The Watchers",
+    "anio": 2024,
+    "actor": "Olivia Cooke",
+    "descripcion": "Mina queda atrapada en un bosque irlandés con extraños que son observados cada noche por criaturas misteriosas e invisibles.",
+    "imagen": "assets/img/watchers.png"
+  },
+  {
+    "titulo": "Hereditary",
+    "anio": 2018,
+    "actor": "Toni Collette",
+    "descripcion": "Tras la muerte de su madre, Annie descubre oscuros secretos familiares que desatan una herencia demoníaca sobre su familia.",
+    "imagen": "assets/img/hereditary.png"
+  }
+]

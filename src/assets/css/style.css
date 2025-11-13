@@ -1,0 +1,56 @@
+
+:root{
+  --accent-red: #7a0f0f; 
+  --bg-dark: #0f0f10;
+  --card-bg: #121214;
+  --muted: #ec0000;
+}
+
+
+*{box-sizing: border-box}
+
+body{
+  background: linear-gradient(180deg, #090909 0%, #0f0f10 100%);
+  color: #ececec;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.site-header{border-bottom: 3px solid rgba(122,15,15,0.12)}
+
+h1,h2,h3{color: #fff}
+
+.card-movie{
+  background: var(--card-bg);
+  border: 1px solid rgba(92, 59, 59, 0.925);
+  border-radius: .6rem;
+  overflow: hidden;
+}
+
+
+.card-movie small,
+.movie-meta,
+.text-muted {
+  color: #cf0000 !important;  
+}
+
+
+.card-movie:hover small {
+  color: #c00000 !important;  
+}
+
+
+.card-movie img{width:100%;height:260px;object-fit:cover;display:block}
+
+.movie-badge{
+  position: absolute;top:8px;left:8px;background: rgba(122,15,15,0.92);padding:4px 8px;border-radius:4px;font-size:.8rem;color:#fff
+}
+
+.btn-danger, .btn-outline-danger{background: var(--accent-red);border-color: var(--accent-red)}
+
+a.text-accent{color: var(--accent-red)}
+
+
+.list-group-item{background:transparent;border:1px solid rgba(59, 57, 57, 0.03)}
+
+
+:focus{outline:3px solid rgba(122,15,15,0.25);outline-offset:2px}
