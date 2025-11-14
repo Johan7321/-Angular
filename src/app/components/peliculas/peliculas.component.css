@@ -1,0 +1,21 @@
+
+:root { --bg: #0e0e0e; --panel:#121212; --accent:#ff3b3b; --muted:#ccc; }
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:#fff;font-family:Segoe UI,Arial}
+.header{display:flex;justify-content:space-between;align-items:center;padding:20px;background:#1e1e1e}
+h1{margin:0;color:white}
+.busqueda{display:flex;gap:10px}
+.busqueda input{padding:6px;border-radius:5px;border:none;width:250px}
+.busqueda button{background:var(--accent);color:#fff;border:none;border-radius:5px;padding:6px 12px;cursor:pointer}
+.subtitle{color:var(--accent);margin-left:20px;font-size:18px}
+.filtros{display:flex;align-items:center;gap:20px;padding:20px;background:transparent}
+.filtros select,.reset{padding:8px;border-radius:6px;border:none;background:#2a2a2a;color:#fff}
+.reset{background:#4b4b4b;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding:20px}
+.card{background:var(--panel);border-radius:10px;overflow:hidden;transition:transform .2s;display:flex;flex-direction:column}
+.card:hover{transform:scale(1.03)}
+.card img{width:100%;height:380px;object-fit:cover;display:block}
+.info{padding:10px 15px}
+.info h3{margin:5px 0;color:var(--accent)}
+.actor{color:var(--muted);font-size:14px}
+.descripcion{font-size:14px;color:#ddd}
