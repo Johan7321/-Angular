@@ -1,0 +1,40 @@
+<div class="header">
+  <h1>CineTerror</h1>
+  <div class="busqueda">
+    <input type="text" placeholder="Buscar por título o actor" [(ngModel)]="busqueda" (input)="filtrar()" />
+    <button (click)="filtrar()">Buscar</button>
+  </div>
+</div>
+
+<p class="subtitle">Películas de terror — últimas novedades</p>
+
+<div class="filtros">
+  <div>
+    <label>Filtrar por año</label>
+    <select [(ngModel)]="filtroAnio" (change)="filtrar()">
+      <option value="Todos">Todos</option>
+      <option *ngFor="let p of anios">{{ p }}</option>
+    </select>
+  </div>
+
+  <div>
+    <label>Ordenar</label>
+    <select [(ngModel)]="orden" (change)="filtrar()">
+      <option value="recientes">Más recientes</option>
+      <option value="antiguas">Más antiguas</option>
+    </select>
+  </div>
+
+  <button class="reset" (click)="restablecer()">Restablecer</button>
+</div>
+
+<div class="grid">
+  <div class="card" *ngFor="let p of peliculasFiltradas">
+    <img [src]="p.imagen" [alt]="p.titulo" />
+    <div class="info">
+      <h3>{{ p.titulo }}</h3>
+      <p class="actor">{{ p.anio }} — {{ p.actor }}</p>
+      <p class="descripcion">{{ p.descripcion }}</p>
+    </div>
+  </div>
+</div>

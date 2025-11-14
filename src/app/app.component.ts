@@ -1,8 +1,14 @@
-
 import { Component, OnInit } from '@angular/core';
 import moviesData from '../assets/movies.json';
+import { Router } from '@angular/router';
 
-interface Pelicula { titulo:string; anio:number; actor:string; descripcion:string; imagen:string; }
+interface Pelicula { 
+  titulo:string; 
+  anio:number; 
+  actor:string; 
+  descripcion:string; 
+  imagen:string; 
+}
 
 @Component({
   selector: 'app-root',
@@ -17,12 +23,18 @@ export class AppComponent implements OnInit {
   orden = 'recientes';
   busqueda = '';
 
+  constructor(private router: Router) {}
+
   ngOnInit(): void {
     this.peliculas = (moviesData as unknown) as Pelicula[];
     const aniosSet = new Set<number>();
     this.peliculas.forEach(p => aniosSet.add(p.anio));
     this.anios = Array.from(aniosSet).sort((a,b)=>b-a);
     this.peliculasFiltradas = [...this.peliculas];
+  }
+
+  showNavbar(): boolean {
+    return this.router.url === '/peliculas';
   }
 
   filtrar(): void {

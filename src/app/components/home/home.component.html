@@ -1,0 +1,312 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" routerLink="/home">G&V Amanecer Dorado</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarHome">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/home">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">¿Quienes Somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hogares Geriatricos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Servicios Generales</a></li>
+            <li><a class="dropdown-item" href="#">Otros Servicios</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" routerLink="/peliculas">🎬 CineTerror</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido Principal -->
+<main class="main-content">
+  <!-- Carrusel -->
+  <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/im1.jpg" class="d-block w-100" alt="Cuidado geriátrico profesional">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cuidado Profesional</h5>
+          <p>La mejor atención para sus seres queridos</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/im2.jpg" class="d-block w-100" alt="Instalaciones cómodas">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Instalaciones Cómodas</h5>
+          <p>Ambientes diseñados para su bienestar</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/im3.jpg" class="d-block w-100" alt="Atención personalizada">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Atención Personalizada</h5>
+          <p>Cada persona recibe el cuidado que merece</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Logo y Bienvenida -->
+  <section class="welcome-section">
+    <div class="container">
+      <div class="welcome-card">
+        <img class="welcome-logo" src="assets/img/Logo.jpg" alt="Logo G&V Amanecer Dorado">
+        <div class="welcome-body">
+          <h2 class="welcome-title">Bienvenidos a G&V Amanecer Dorado</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Misión y Visión -->
+  <section class="about-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>¿Sobre nosotros?</h2>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="vision-card">
+            <h3><i class="fas fa-eye me-2"></i>Visión</h3>
+            <p class="dark-text">Brindar un servicio optimizado "especificar servicio" que supere las expectativas nuestros seres queridos, donde el enfoque continuo sea el bienestar y la comodidad que merecen, desde la variedad de opciones de contacto hasta el seguimiento y satisfaccion que nos impulsar a mejorar cada dia en la busqueda de tu hogar social.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mission-card">
+            <h3><i class="fas fa-bullseye me-2"></i>Misión</h3>
+            <p class="dark-text">Con nuestro arduo esfuerzo en el mejoramiento y constancia del servicio que brindamos para nuestros seres queridos; anhelamos establecer un vinculo unico y diferenciable a traves de la satisfaccion que realmente resplandece con felicidad su espiritu y ser. "proyeccion de mediano plazo de como me veo, referente a la actividad economica"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Objetivos -->
+  <section class="objectives-section">
+    <div class="container">
+      <div class="objectives-main-card">
+        <div class="objectives-header">
+          <h3><i class="fas fa-flag me-2"></i>Objetivos</h3>
+        </div>
+        <div class="objectives-body">
+          <p class="dark-text">Obsequiar un valor emocional a las familias que buscan un hogar ideal, que promueva satisfaccion en su proceso y permanencia.</p>
+        </div>
+        <div class="objectives-footer">
+          <p><i class="fas fa-list me-2"></i>Objetivos Especificos</p>
+        </div>
+      </div>
+
+      <!-- Objetivos específicos -->
+      <div class="row g-4 mt-4">
+        <div class="col-md-4">
+          <div class="objective-card objective-1">
+            <h4><i class="fas fa-target me-2"></i>Objetivo 1</h4>
+            <p class="dark-text">Segmentar nuestros servicios para las familias que buscan un hogar geriatrico y las compañias que brindan este hogar con una buena calidad.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="objective-card objective-2">
+            <h4><i class="fas fa-chart-line me-2"></i>Objetivo 2</h4>
+            <p class="dark-text">Mantener seguimiento a la familia que contrata su servicio con un hogar geriatrico buscando su permanencia y satisfaccion.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="objective-card objective-3">
+            <h4><i class="fas fa-handshake me-2"></i>Objetivo 3</h4>
+            <p class="dark-text">Compartir expectativas y experiencias a los hogares geriatricos, para que de manera conjunta se busque mejorar e innovar el servicio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nuestros servicios</h2>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card">
+            <img src="assets/img/Ayuda.jpg" class="service-img" alt="Busqueda de hogares geriatricos">
+            <div class="service-content">
+              <h4><i class="fas fa-search me-2"></i>Busqueda de hogares geriatricos</h4>
+              <p class="dark-text">Nuestro servicio principal es ayudarte a encontrar el hogar perfecto para tu ser querido. Evaluamos tus necesidades y te proporcionamos opciones que se adapten atus requerimientos.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card">
+            <img src="assets/img/Asesor.jpg" class="service-img" alt="Asesoramiento para elegir">
+            <div class="service-content">
+              <h4><i class="fas fa-user-tie me-2"></i>Asesoramiento para elegir</h4>
+              <p class="dark-text">Ofrecemos asesoramiento personalizado para asegurarnos de que encuentres la mejor opcion disponible. Nuestro equipo esta aqui para respoder todas tus preguntas y ayudarte en cada caso del proceso.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card">
+            <img src="assets/img/Visita.jpeg" class="service-img" alt="Visitas Guiadas">
+            <div class="service-content">
+              <h4><i class="fas fa-map-marked-alt me-2"></i>Visitas Guiadas</h4>
+              <p class="dark-text">Organizamos visitas guiadas a los hogares geriatricos para que puedas conocer las instalaciones, el personal, y el ambientes antes de tomar una desicion.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card">
+            <img src="assets/img/post.jpg" class="service-img" alt="Servicio Post-Seleccion">
+            <div class="service-content">
+              <h4><i class="fas fa-headset me-2"></i>Servicio Post-Seleccion</h4>
+              <p class="dark-text">Una vez que hayas seleccionado un hogar geriatrico,seguimos brindando apoyo para asegurar que la transicion sea lo mas facil posible y que tu ser querido se adapte bien a su nuevo entorno.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consejos -->
+  <section class="advice-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Como Elegir un Hogar Geriatrico Adecuado</h2>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="advice-list">
+            <div class="advice-group">
+              <h4><i class="fas fa-clipboard-list me-2"></i>Evalua las necesidades del Adulto Mayor</h4>
+              <ul class="advice-items">
+                <li class="dark-text">Estado de salud.</li>
+                <li class="dark-text">Necesidades de cuidado personal.</li>
+                <li class="dark-text">Preferencias personales.</li>
+              </ul>
+            </div>
+            
+            <div class="advice-group">
+              <h4><i class="fas fa-search me-2"></i>Investigacion Inicial</h4>
+              <ul class="advice-items">
+                <li class="dark-text">Sitios web especializados.</li>
+                <li class="dark-text">Agencias locales.</li>
+              </ul>
+            </div>
+            
+            <div class="advice-group">
+              <h4><i class="fas fa-home me-2"></i>Visita y evaluacion: Ten en cuenta lo siguiente</h4>
+              <ul class="advice-items">
+                <li class="dark-text">Instalaciones.</li>
+                <li class="dark-text">Actividades.</li>
+                <li class="dark-text">Personal.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3">
+          <div class="advice-image">
+            <img src="assets/img/checklist.webp" class="img-fluid rounded" alt="Checklist">
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="benefits-list">
+            <h4><i class="fas fa-star me-2"></i>¿Que Beneficios tienen los Hogares Geriatricos para el Adulto Mayor?</h4>
+            <ul class="benefits-items">
+              <li class="dark-text">Atencion Medica Especializada.</li>
+              <li class="dark-text">Asistencia con la Actividades Diarias.</li>
+              <li class="dark-text">Socializacion y compañerismo.</li>
+              <li class="dark-text">Actividades Recreativas y Terapeuticas.</li>
+              <li class="dark-text">Alimentacion y Nutricion Equilibrada.</li>
+              <li class="dark-text">Seguridad y proteccion.</li>
+              <li class="dark-text">Alivio para los Cuidadores Familiares.</li>
+              <li class="dark-text">Mejor Calidad de vida.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/573227478740" class="whatsapp-float" target="_blank" title="Contáctanos por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Footer -->
+<footer class="home-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-section">
+          <h4>Contáctanos</h4>
+          <p><i class="fas fa-phone me-2"></i>Teléfono: +57 322 747 8750</p>
+          <p><i class="fas fa-envelope me-2"></i>Correo: gvyamanecerdorado@outlook.com</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-section">
+          <h4>Redes Sociales</h4>
+          <a href="#" class="footer-link"><i class="fab fa-instagram me-2"></i>Instagram</a>
+          <a href="#" class="footer-link"><i class="fab fa-facebook me-2"></i>Facebook</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-section">
+          <h4>Horario de Atención</h4>
+          <p><i class="fas fa-clock me-2"></i>Lunes a Viernes: 8:00 AM - 8:00 PM</p>
+          <p><i class="fas fa-clock me-2"></i>Sábado y Domingo: 8:00 AM - 5:00 PM</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-section">
+          <h4>Compañía</h4>
+          <a href="#" class="footer-link"><i class="fas fa-users me-2"></i>Nosotros</a>
+          <a href="#" class="footer-link"><i class="fas fa-handshake me-2"></i>Vincúlate a Nosotros</a>
+          <a href="#" class="footer-link"><i class="fas fa-blog me-2"></i>Blog</a>
+          <a href="#" class="footer-link"><i class="fas fa-file-contract me-2"></i>Términos y Condiciones</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
